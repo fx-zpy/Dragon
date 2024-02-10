@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">FlyDragon</string>
+    <string name="screenHeight">屏幕的高度</string>
+    <string name="screenWidth">屏幕的宽度</string>
+    <string name="screenDensity">屏幕的像素密度</string>
+    <string name="memory">可用/总运行内存大小</string>
+    <string name="InternalMemory">可用/总内部内存大小</string>
+    <string name="wifi">wifi信息</string>
+    <string name="getInfo">获取信息</string>
+    <string name="destoryInfo">清空信息</string>
+</resources>
