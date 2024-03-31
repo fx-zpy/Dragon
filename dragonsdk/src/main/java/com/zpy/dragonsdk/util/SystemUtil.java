@@ -133,7 +133,6 @@ public class SystemUtil {
         WifiManager wifiManager = (WifiManager) context.getSystemService(Context.WIFI_SERVICE);
         wifiManager.startScan();
         List<ScanResult> scanResult = wifiManager.getScanResults();
-        Log.i(TAG, "wifi scan result's size is " + scanResult.size());
         StringBuilder stringBuilder = new StringBuilder();
         int returnSize = 5;
         while (returnSize > 0) {
@@ -154,7 +153,7 @@ public class SystemUtil {
      * @param s
      * @return
      */
-    public boolean isBlank(String s) {
+    public static boolean isBlank(String s) {
         return s == null || s.length() == 0;
     }
 

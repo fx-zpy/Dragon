@@ -8,4 +8,5 @@
     <string name="wifi">wifi信息</string>
     <string name="getInfo">获取信息</string>
     <string name="destoryInfo">清空信息</string>
+    <string name="title_activity_basic">basic</string>
 </resources>
